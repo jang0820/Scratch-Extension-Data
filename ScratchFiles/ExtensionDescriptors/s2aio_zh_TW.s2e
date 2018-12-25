@@ -1,0 +1,30 @@
+﻿{
+    "extensionName": "s2aio",
+    "extensionPort": 50209,
+    "blockSpecs": [
+        [
+            "",
+            "資料輸出:%s 給 %m.database",
+            "database",
+            "回傳的資料",
+            "資料庫"
+        ],
+        [
+            "",
+            "你好嗎",
+            "send_hi"
+        ],
+        [
+            "r",
+            "你好嗎結果",
+            "return_hi"
+        ]
+    ],
+    "menus": {
+        "database": [
+            "Mysql",
+            "Mongo",
+            "Google"
+        ]
+    }
+}
